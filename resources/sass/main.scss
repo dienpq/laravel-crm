@@ -1,0 +1,21 @@
+.slidebar {
+    border-right: 2px solid #cfd8dc;
+
+    .nav-item {
+        .nav-link {
+            padding: 8px 16px;
+            border-radius: 4px;
+            margin: 0.25rem 0;
+            font-weight: 600;
+
+            &:hover,
+            &:focus {
+                background-color: #cfd8dc;
+            }
+        }
+
+        .active {
+            background-color: #cfd8dc;
+        }
+    }
+}

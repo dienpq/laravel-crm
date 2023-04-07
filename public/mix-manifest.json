@@ -1,4 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/popper.js": "/js/popper.js",
+    "/css/app.css": "/css/app.css",
+    "/assets/images/logo-samsung.jpg": "/assets/images/logo-samsung.jpg",
+    "/assets/images/logo.png": "/assets/images/logo.png",
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/js/bootstrap.bundle.min.js": "/js/bootstrap.bundle.min.js",
+    "/js/bootstrap-datepicker.min.js": "/js/bootstrap-datepicker.min.js",
+    "/css/bootstrap-datepicker.min.css": "/css/bootstrap-datepicker.min.css"
 }

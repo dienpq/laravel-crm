@@ -12,5 +12,11 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .copy('resources/assets/images', 'public/assets/images')
     .sass('resources/sass/app.scss', 'public/css')
+    .copy('node_modules/jquery/dist/jquery.min.js', 'public/js')
+    .copy('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', 'public/js')
+    .js('node_modules/popper.js/dist/popper.js', 'public/js')
+    .copy('node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js', 'public/js')
+    .copy('node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css', 'public/css')
     .sourceMaps();
